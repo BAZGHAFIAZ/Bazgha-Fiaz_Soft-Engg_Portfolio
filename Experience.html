@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="imgs/signature.png" style="display: flex;" height="8%" width="15%">
+            <ul  class="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Experience.html">Experience</a></li>
+                <li> <a href="education.html">Education</a></li>
+                <li> <a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section>
+        <div class="flex-container2">
+            <div class=" text"><h1>Experience<br></h1> 
+                 <p>I have just joined<b>ITITANS S.T.E.P</b>program.As my internship draws<br>
+                    to a close and I reflect back on all I have learned, I realize<br>
+                     what an excellent experience this has been. I gathered much <br>
+                     knowledge in the <b> SESSIONS</b>, but a hands-on approach<br>
+                     has been invaluable. It has served as a beneficial
+                     ending to my formal education.
+                 </div>
+                 <div class=" flex-items2"><img src="imgs/experience.png" height="450px" width="450">
+                </div>
+                <div class="footer">
+                    <p>Made by BAZGHA</p>
+</body>
+</html>
+<style>
+p:hover, h1:hover, a:hover {
+    background-color: rgb(186, 243, 112);
+}
+*{
+    padding: 5px;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: none;
+ text-decoration: none;
+ scroll-behavior: smooth;
+ justify-content: space-between;
+}
+:root{
+    background-color: rgba(209, 220, 248, 0.938);
+    second-background-color: rgb(26, 24, 24);
+     color: rgb(1, 1, 15);
+     font-size: 12px;
+    --h2-font:4.2rem;
+    --pfont:1.1rem;
+}
+.body{
+    background-color: darkseagreen;
+    color:var(--text-color);
+}
+.container {
+    
+                padding: 5px;
+
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                background-color: #3B5998;
+            }
+
+            nav ul li {
+                display: inline-block;
+                list-style: none;
+                margin: 10px 10px;
+            }
+
+            nav ul li a {
+                color: rgb(253, 252, 250);
+                text-decoration: none;
+                font-size: 22px;
+
+            }
+            .pic{
+                max-width: 400px;
+         }
+         .image {
+            opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .10s ease;
+backface-visibility: hidden;
+}
+.navbar{
+display: flex; 
+}
+.navbar li {
+position: relative;
+}
+.navbar a {
+font-weight: bold;
+font-size: 2rem;
+padding: 10px 10px;
+margin: 5%;
+justify-content: space-between;
+align-items: left;
+}
+.navbar a::after{
+position: absolute;
+width: 5px;
+height: 2px;
+background: var(--main-color);
+left: 0;
+bottom: -4px;
+transition: ease.40s;
+cursor: pointer;
+}
+.navbar a:hover::after{
+width: 40px;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    border: 45vh;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    flex-direction: column wrap;
+    padding: 5px;
+    margin: 3%;
+    font-size: 21px;
+    font-style: italic;
+}
+.flex-items2{
+    height: 350px;
+    width: 350px;
+    margin: 3%;
+  justify-content: space-between;
+  padding: 3%;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3B5998;
+   color: white;
+   text-align: center;
+   font-size: large;
+}
+</style>

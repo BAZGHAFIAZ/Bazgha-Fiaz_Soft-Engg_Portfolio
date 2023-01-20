@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCATION</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="imgs/signature.png" style="display: flex;" height="8%" width="15%">
+            <ul  class="navbar">
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="Experience.html">Experience</a></li>
+                <li> <a href="education.html">Education</a></li>
+                <li> <a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex-container2">
+        <div class=" text"><h1>EDUCATION</h1>
+            <p >Qualification & Basic education</p>
+            <h2>2019-2023</h2>
+             </div>
+             <div class=" flex-items2"><img src="imgs/edu.png" height="300px" width="300px"></div>
+             <div class="flex-container3">
+                <div class=" text grad1"><h1>Degree recieved</h1>
+                    <p> I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.<br><br>
+                    ⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.<br><br>
+                    ⚡ I was selected for University Student Ambassadorship which is given to top 10% of students in University. I have<br><br> 
+                    received award from respected director for participating in International Student Conference.</p>
+                     </div>
+                     <div class=" flex-items3"><img src="imgs/uni.png" height="300px" width="250px"></div>
+                     <div class="footer">
+                        <p>Made by BAZGHA</p>
+</body>
+</html>
+<style>
+.grad1 {
+  height: 300px;
+  background-color: rgb(53, 33, 240); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(115, 197, 235) , yellow);
+}
+p:hover, h1:hover, a:hover {
+    background-color: rgb(186, 243, 112);
+}
+     *{
+        padding: 7px;
+        margin: 2px;
+        box-sizing: border-box;
+        font-family: none;
+     text-decoration: none;
+     scroll-behavior: smooth;
+     justify-content: space-between;
+    }
+    :root{
+        background-color: rgba(209, 220, 248, 0.938);
+        second-background-color: rgb(26, 24, 24);
+         color: rgb(1, 1, 15);
+         font-size: 12px;
+        --h2-font:4.2rem;
+        --pfont:1.1rem;
+    }
+    .body{
+        background-color: darkseagreen;
+        color::var(--text-color);
+    }
+    .container {
+                    padding: 5px;
+
+                }
+
+                nav {
+                    display: flex;
+                    align-items: center;
+                    background-color: #3B5998;
+        
+                }
+
+                nav ul li {
+                    display: inline-block;
+                    list-style: none;
+                    margin: 10px 10px;
+                }
+
+                nav ul li a {
+                    color: rgb(247, 245, 245);
+                    text-decoration: none;
+                    font-size: 22px;
+
+                }
+                .pic{
+                    max-width: 400px;
+             }
+             .image {
+                opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .10s ease;
+  backface-visibility: hidden;
+}
+.navbar{
+    display: flex; 
+}
+.navbar li {
+position: relative;
+}
+.navbar a {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 10px;
+    margin: 5%;
+    justify-content: space-between;
+    align-items: left;
+}
+.navbar a::after{
+    content: ;
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    background: var(--main-color);
+    left: 0;
+    bottom: -4px;
+    transition: ease.40s;
+    cursor: pointer;
+}
+.navbar a:hover::after{
+    width: 20px;
+}
+    .flex-container2{
+    display: flex;
+    flex-direction:row;
+    border: 45vh;
+    justify-content:space-around ; 
+    flex-wrap: wrap;
+    flex-direction: row wrap;
+    padding: 2px;;
+    margin: 2px;
+    font-size: 24px;
+    font-style: italic;
+}
+.flex-items2{
+    height: 300px;
+    width: 300px;
+  justify-content: space-between;
+  padding: 5px ;
+}
+.flex-container3{
+    display: flex;
+    flex-direction:row;
+    border: 55vh;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    flex-direction: row wrap;
+    padding: 5px;
+    margin: 2px;
+    font-size: 16px;
+    font-style: italic;
+}
+.flex-items3{
+    height: 250px;
+    width: 250px;
+    margin: 0%;
+  justify-content: space-between;
+  padding:0;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #3B5998;
+   color: white;
+   text-align: center;
+   font-size: large;
+}
+</style>
